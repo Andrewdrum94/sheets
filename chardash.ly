@@ -1,7 +1,9 @@
 \version "2.26.0"
+#(set-global-staff-size 24)
 \header {
     title = "Чардаш"
     arranger = "А.С.Колесник"
+    composer = "Monti"
 }
 \score {
     \new DrumStaff \with {
@@ -29,6 +31,18 @@
                 \volta 1 {<bd hh>8 sn <bd hh> sn <bd hh> sn sn sn}
                 \volta 2 {<bd hh> sn <bd hh> sn <bd cymr>4 r4}
             }
+            \tempo "Andante"
+            \repeat percent 6 {<bd hh>8 hh hh <bd hh> <bd hh> hh <ss hh> hh} |
+            <bd hh>8 \startTextSpan hh hh <bd hh> <bd hh> hh <ss hh> hh | <bd cymr>4 <bd hho> <bd cymr> \stopTextSpan r4 |
+            \tempo "Adagio"
+            \override TextSpanner.bound-details.left.text = "accel."
+            \repeat percent 7 {<bd hh>8  sn <bd hh> sn <bd hh> \startTextSpan sn <bd hh> sn} | \tempo "Prestissimo" <bd hh>8 \stopTextSpan sn <bd hh> sn <bd hh> sn <bd hh> sn |
+            \repeat volta 2 { \repeat percent 7 {<bd hh>8 sn <bd hh> sn <bd hh> sn <bd hh> sn }} 
+            \alternative {
+                \volta 1 {<bd hh>8 sn <bd hh> sn <bd hh> sn sn sn}
+                \volta 2 {<bd sn cymr>4 r4 <bd sn cymr>4 r4}
+            }
+            <bd sn cymr>8 sn16 sn sn sn sn sn <bd cymc>4 r4 \bar "|."
 
         }
     }
