@@ -25,7 +25,7 @@
   \repeat percent 8 {<bd hho>8 \tuplet 3/2 {<sn hhc>8 hh16} <bd hho>8  \tuplet 3/2 {<sn hhc>8 hh16} <bd hho>8 \tuplet 3/2 {<sn hhc>8 hh16} \tuplet 3/2 {<bd hho>8 sn16} \tuplet 3/2 {<sn hhp>8 sn16}} |
   <bd hho>8 \tuplet 3/2 {<sn hhp>8 sn16} \tuplet 3/2 {bd8 sn16} <sn hhp>8 <bd sn>4 r4 |
   \repeat percent 3 {<bd ss>16-> ss <hhp ss> ss-> <bd ss> ss <hhp ss>-> ss <bd ss>-> ss <hhp ss> ss-> \tuplet 3/2 {<bd ss>16 ss ss} <hhp ss>-> ss} |
-  <bd cymr>16 ss-> <hhp ss>-> ss <bd ss>-> ss <hhp ss>-> <cymr sn>-> r16 sn r16 sn sn8 sn8 | 
+  <bd cymr>16 ss-> <hhp ss>-> ss <bd ss>-> ss <hhp ss>-> <cymr sn>-> r16 sn r16 sn sn8 sn8 |
 
   }
   }
