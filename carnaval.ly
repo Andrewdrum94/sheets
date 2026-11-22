@@ -1,7 +1,7 @@
 \version "2.26.0"
 #(set-global-staff-size 19)
 \header {
-    title = Карнавал
+    title = "Карнавал (Мафия)"
     arranger = "А.С.Колесник"
 }
 \score {
